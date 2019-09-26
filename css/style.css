@@ -70,7 +70,7 @@ a {
 	width:890px;
 }
 .header {
-	background:url(images/header_bg.jpg) no-repeat center top;
+	background:url(../images/header_bg.jpg) no-repeat center top;
 }
 .header_resize {
 	margin:0 auto;
@@ -80,7 +80,7 @@ a {
 .menu_nav {
 	margin:0;
 	padding:0;
-	background:#f00 url(images/menu.gif) repeat-x top;
+	background:#f00 url(../images/menu.gif) repeat-x top;
 	height:58px;
 }
 .menu_nav {
@@ -95,13 +95,13 @@ a {
 	list-style:none;
 	float:left;
 	padding-left:40px;
-	background:url(images/menu_sep.gif) no-repeat 38px top;
+	background:url(../images/menu_sep.gif) no-repeat 38px top;
 }
 .menu_nav ul li {
 	margin:0;
 	padding:0 2px 0 0;
 	float:left;
-	background:url(images/menu_sep.gif) no-repeat right top;
+	background:url(../images/menu_sep.gif) no-repeat right top;
 }
 .menu_nav ul li a {
 	display:block;
@@ -128,7 +128,7 @@ a {
 	padding:0 4px 0 6px;
 	float:right;
 	width:183px;
-	background:#fff url(images/search.gif) no-repeat top left;
+	background:#fff url(../images/search.gif) no-repeat top left;
 }
 #formsearch input.editbox_search {
 	margin:0;
