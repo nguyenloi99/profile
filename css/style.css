@@ -628,9 +628,14 @@ span.border.one:after {
       clear: right;
       margin-bottom: 5px;
       margin-right: 5px;
+      width: 49%;
+      height: 350px;
+      margin-top: 30px;
+      margin-bottom: 80px;
 }
+
   #design .last{
-      float: none;
+      float: right;
   }
 #design .button_dow{
     float: right;
@@ -639,6 +644,39 @@ span.border.one:after {
     color: #f9f9f9;
     box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
+}
+#implement li{
+    list-style: none   ;
+    float: left;
+    clear: right;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    width: 49%;
+    height: 350px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+#implement .last{
+    float: right;
+}
+#implement .button_dow{
+    float: right;
+    border-radius: 5px;
+    background:  #00a78e;
+    color: #f9f9f9;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+#implement a{
+    text-decoration: none;
+    color: #f9f9f9;
+    font-weight: 200;
+    font-size: 18px;
+}
+#implement .but{
+    width: 100%;
+    height: 50px;
 }
 #design a{
     text-decoration: none;
@@ -654,6 +692,7 @@ span.border.one:after {
     margin-bottom: 20px;
 }
 #design #paint{
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 .container{

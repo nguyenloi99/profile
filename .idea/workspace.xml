@@ -12,14 +12,40 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RdIqzvaTr1FoQLjZorEeaV7dNO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Thanh Loi\Desktop\profile\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Thanh Loi\Desktop\profile\lab1" />
+      <recent name="C:\Users\Thanh Loi\Desktop\profile\lab1\css" />
+      <recent name="C:\Users\Thanh Loi\Desktop\profile\lib" />
+      <recent name="C:\Users\Thanh Loi\Desktop\profile" />
+      <recent name="C:\Users\Thanh Loi\Desktop\profile\lib\lab1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -47,6 +73,11 @@
       <workItem from="1569990901346" duration="7537000" />
       <workItem from="1570005012313" duration="7336000" />
       <workItem from="1570014802400" duration="248000" />
+      <workItem from="1570023448704" duration="621000" />
+      <workItem from="1570072643910" duration="4463000" />
+      <workItem from="1570083844126" duration="9842000" />
+      <workItem from="1570111848165" duration="215000" />
+      <workItem from="1570121569675" duration="2080000" />
     </task>
     <servers />
   </component>
