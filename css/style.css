@@ -27,7 +27,7 @@ body h1,h2,h3,h4,h5,h6{
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height:650px;
+    min-height:760px;
 	position: relative;
 }
 .top-header {
@@ -606,6 +606,7 @@ span.border.one:after {
      margin-top: 4em;
 }
 #services {
+    min-height:760px;
     padding: 5em 0;
     background: #1b242f;
 }
