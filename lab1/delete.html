@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete Book</title>
+    <link rel="stylesheet" href="css/delstyle.css">
+    <link rel="stylesheet" href="lib/fontawesome-free-5.11.2-web/css/all.css">
+
+</head>
+<body>
+<div id="container">
+    <div id="form">
+        <form class="form">
+            <div id="input">
+                <h4>Filter</h4>
+                <div class="input_colum1 text">Name</div>
+                <div class="input_colum1 "> <input type="text" placeholder="Name:" class="input_field name"></div>
+
+
+                <div style="margin: auto">
+                    <button class="button" >Search</button>
+                </div>
+            </div>
+            <div id="del">
+                    <div class="br"></div>
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">STT</th>
+                            <th scope="col">ID</th>
+                            <th scope="col" >NAME</th>
+                            <th scope="col">AUTHOR</th>
+                            <th scope="col">DATE</th>
+                            <th scope="col">TYPE</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>A001</td>
+                            <td>Tôi thấy hoa vang trên cỏ xanh</td>
+                            <td>Nguyễn Nhật Ánh</td>
+                            <td>1/1/2019</td>
+                            <td>Truyện ngắn</td>
+                            <td><div>
+                                <button class="edit"><i class="fas fa-user-edit"></i></button>
+                                <input type="checkbox"><i class="fas fa-trash-alt"></i>
+                            </div></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>A002</td>
+                            <td>Tôi là bê tô</td>
+                            <td>Nguyễn Nhật Ánh</td>
+                            <td>1/1/2019</td>
+                            <td>Truyện ngắn</td>
+                            <td><div>
+                                <button class="edit" ><i class="fas fa-user-edit"></i></button>
+                                <input type="checkbox"><i class="fas fa-trash-alt"></i>
+                            </div></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>A003</td>
+                            <td>Cho tôi xin một vé đi tuổi thơ</td>
+                            <td>Nguyễn Nhật Ánh</td>
+                            <td>1/1/2019</td>
+                            <td>Truyện ngắn</td>
+                            <td><div>
+                                <button class="edit"><i class="fas fa-user-edit"></i></button>
+                                <input type="checkbox"><i class="fas fa-trash-alt"></i>
+                            </div></td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+
+            </div>
+            <div id="button">
+                <button class="button">Exit</button>
+                <button class="button">Delete</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
