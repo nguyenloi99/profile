@@ -2262,23 +2262,34 @@ span.border.two:after {
 .but {
     height: 40px;
 }
-.button_dow{
+
+.button_dow {
     float: right;
     border-radius: 5px;
-    background:  #00a78e;
+    background: #00a78e;
     color: #f9f9f9;
-    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-decoration: none;
 
 }
+
 #implement ul li {
     list-style: none !important;
     margin-bottom: 20px;
     width: 100%;
 }
 
-
-
-
-
+.tabweek a:hover,.tabweek a:focus ,.tabsub a:hover,.tabsub a:focus {
+    color: #FFFFff;!important;
+    background: #00a78e;
+    text-decoration: underline;
+}
+.group-tabs .nav-tabs .nav-link.active {
+    color: #FFFFFF!important;
+    background-color: #00a78e!important;
+    border-color: #ddd   #ddd #fff;
+}
+#user_scenario .bound{
+    margin-top: 40px;
+}
 /*des tab*/
