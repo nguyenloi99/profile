@@ -2278,7 +2278,11 @@ span.border.two:after {
     margin-bottom: 20px;
     width: 100%;
 }
-
+#implement ul li {
+    list-style: none !important;
+    margin-bottom: 20px;
+    width: 100%;
+}
 .tabweek a:hover,.tabweek a:focus ,.tabsub a:hover,.tabsub a:focus {
     color: #FFFFff;!important;
     background: #00a78e;
@@ -2291,5 +2295,10 @@ span.border.two:after {
 }
 #user_scenario .bound{
     margin-top: 40px;
+}
+#implementweek2 iframe{
+    margin: 0!important;
+    width: 100%;
+    height: 800px;
 }
 /*des tab*/
