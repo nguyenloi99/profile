@@ -22,7 +22,7 @@ body{
 #form{
     margin: auto;
     width: 70%;
-    height: 300px;
+    height: 400px;
     background: #FFFFFF;
     font-size: 15px;
     border-radius: 5px;
@@ -37,6 +37,7 @@ body{
     background-color: #EDEDED;
     width: 90%;
     height: 3px;
+    margin-top: 17px;
 }
 
 .titles{
@@ -73,15 +74,28 @@ body{
     margin: 0px 40px;
     width: 10%;
 }
-.edit,.button{
+.add_but{
+    border-radius: 5px;
+    margin: 0px 40px;
+    width: 10%;
+}
+.delete,.edit,.button,.add_but{
     background: #4cae4c;
     height: 30px;
 }
-.edit:hover,.button:hover{
+.delete,.add_but,.edit:hover,.button:hover{
     background: #3c763d;
 }
 table{
     text-align: left;
     width: 100%;
     margin-bottom: 10px;
+}
+.add{
+    float: left;
+}
+.input_field{
+    border-radius: 5px;
+    border: 1px solid #B3B3B3;
+    width: 60%;
 }

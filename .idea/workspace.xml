@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71cb05c2-13a3-4918-b3a8-1e34c6ce2cae" name="Default Changelist" comment="" />
+    <list default="true" id="71cb05c2-13a3-4918-b3a8-1e34c6ce2cae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lab1/manager.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/css/delstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/css/delstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/delete.html" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hci2019group08" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/JavaScript" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -64,6 +71,7 @@
       <workItem from="1570610094329" duration="16519000" />
       <workItem from="1570667306579" duration="5975000" />
       <workItem from="1570674709829" duration="3400000" />
+      <workItem from="1570685810680" duration="8131000" />
     </task>
     <servers />
   </component>
