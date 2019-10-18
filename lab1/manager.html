@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete Book</title>
+    <link rel="stylesheet" href="css/delstyle.css">
+    <link rel="stylesheet" href="lib/fontawesome-free-5.11.2-web/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+<div id="container">
+    <div id="form">
+        <form class="form">
+            <div id="input">
+                <h4>Book Manager</h4>
+                <div class="row">
+                    <div class="row add" style="margin-right: 0px">
+                        <div class="">ID</div>
+                        <div class=" "><input type="text" class="input_field" id="id" style="width: 40%"></div>
+                    </div>
+                    <div class="row add">
+                        <div class="">NAME</div>
+                        <div class=" "><input type="text" class="input_field" id="name"></div>
+                    </div>
+                    <div class="row add">
+                        <div class="">AUTHOR</div>
+                        <div class=" "><input type="text" class="input_field " id="au"></div>
+                    </div>
+                    <div class="row add">
+                        <div class="">DATE</div>
+                        <div class=" "><input type="text" class="input_field " id="date"></div>
+                    </div>
+                    <div class="row add">
+                        <div class="">TYPE</div>
+                        <div class=" "><input type="text" class="input_field " id="type"></div>
+                    </div>
+                    <div>
+                        <button type="button" onclick="add()" class="button add_but"><i class="fas fa-plus"
+                                                                                        aria-hidden="true"></i> Add
+                            New
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="del">
+                <div class="br"></div>
+                <table class="table">
+                    <thead>
+                    <tr>
+
+                        <th scope="col">ID</th>
+                        <th scope="col">NAME</th>
+                        <th scope="col">AUTHOR</th>
+                        <th scope="col">DATE</th>
+                        <th scope="col">TYPE</th>
+                    </tr>
+                    </thead>
+                    <tbody id="body">
+                    <tr>
+
+                        <td>A001</td>
+                        <td>Tôi thấy hoa vang trên cỏ xanh</td>
+                        <td>Nguyễn Nhật Ánh</td>
+                        <td>1/1/2019</td>
+                        <td>Truyện ngắn</td>
+                        <td>
+                            <div>
+                                <button onclick="edit()" type="button" class="edit"><i class="fas fa-user-edit"></i>
+                                </button>
+                                <button onclick="deleteitem()" type="button" class="delete "><i
+                                        class="fas fa-trash-alt"></i></button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>A002</td>
+                        <td>Tôi là bê tô</td>
+                        <td>Nguyễn Nhật Ánh</td>
+                        <td>1/1/2019</td>
+                        <td>Truyện ngắn</td>
+                        <td>
+                            <div>
+                                <button onclick="edit()" type="button" class="edit"><i class="fas fa-user-edit"></i>
+                                </button>
+                                <button onclick="deleteitem()" type="button" class=" delete"><i
+                                        class="fas fa-trash-alt"></i></button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>A003</td>
+                        <td>Cho tôi xin một vé đi tuổi thơ</td>
+                        <td>Nguyễn Nhật Ánh</td>
+                        <td>1/1/2019</td>
+                        <td>Truyện ngắn</td>
+                        <td>
+                            <div>
+                                <button onclick="edit()" type="button" class="edit"><i class="fas fa-user-edit"></i>
+                                </button>
+                                <button onclick="deleteitem()" type="button" class="  delete"><i
+                                        class="fas fa-trash-alt"></i></button>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+
+            </div>
+            <div id="button">
+                <button class="button">Exit</button>
+                <button onclick="save()" type="button" class="button">Save</button>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+
+
+    function add() {
+        var id = document.getElementById('id').value
+        var name = document.getElementById('name').value;
+        var au = document.getElementById('au').value;
+        var date = document.getElementById('date').value;
+        var type = document.getElementById('type').value;
+        if (id == '') {
+            alert('Nhập id');
+            return;
+        } else if (name == '') {
+            alert('Nhập name');
+            return;
+        } else if (au == '') {
+            alert('Nhập tên tác giả');
+            return;
+        } else if (type == '') {
+            alert('Nhập thể loại');
+            return;
+        }
+        var row = '<tr>' +
+            '<td>' + id + '</td>' +
+            '<td>' + name + '</td>' +
+            '<td>' + au + '</td>' +
+            '<td>' + date + '</td>' +
+            '<td>' + type + '</td>' +
+            '<td>  <div>   <button onclick="edit()" type="button" class="edit"> <i class="fas fa-user-edit">' +
+            '</i></button> <button type="button" class=" delete"> <i class="fas fa-trash-alt">' +
+            '</i></button> </div> </td>' +
+            '</tr>';
+        $(".table").append(row);
+
+
+    }
+
+    // Edit row on edit button click
+    function edit() {
+        $('button:focus').parents("tr").find("td:not(:last-child)").each(function () {
+            console.log($(this).text)
+            $(this).html('<input type="text" class="form-control" value="' + $(this).text() + '">');
+        });
+    }
+
+    function save() {
+        $('button:focus').parents("del").find("table").find('input').each(function () {
+            console.log($(this))
+            $(this).html($(this).value);
+        });
+    }
+
+    function deleteitem() {
+        $('button:focus').parents("tr").remove();
+    }
+
+    // // Delete row on delete button click
+    // $(document).on("click", ".delete", function () {
+    //     $(this).parents("tr").remove();
+    // });
+
+</script>
+</body>
+</html>
