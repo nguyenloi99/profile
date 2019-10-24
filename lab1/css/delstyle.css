@@ -1,10 +1,11 @@
-body{
+body {
     padding: 0px;
     margin: 0px;
     font-family: Tahoma;
     background: #B3B3B3;
 }
-.container{
+
+.container {
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -16,34 +17,39 @@ body{
 /*    justify-content: start;*/
 /*}*/
 
-.title{
+.title {
     width: 150px;
 }
-#form{
+
+#form {
     margin: auto;
     height: 400px;
     background: #FFFFFF;
     font-size: 15px;
     border-radius: 5px;
 }
-.form{
+
+.form {
     margin-left: 30px;
 
 }
 
 
-.br{
+.br {
+
     background-color: #EDEDED;
     width: 90%;
     height: 3px;
-    margin-top: 17px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
-.titles{
+.titles {
     width: 250px;
-    padding:10px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
 }
-.containers{
+
+.containers {
     width: 1000px;
     margin: auto;
     display: flex;
@@ -53,49 +59,84 @@ body{
     padding: 20px;
 
 }
-.input_colum1{
-    margin-right: 40px;
+
+.input_colum1 {
+    margin-right: 20px;
 }
-#input{
+
+#input {
     padding-top: 5px;
     height: 120px;
 }
 
-.text{
+.text {
     float: left;
 }
-.tr{
+
+.tr {
     margin: 0px 10px 0px 10px;
 }
-.button{
+
+.button {
     border-radius: 5px;
     float: right;
     margin: 0px 40px;
     width: 10%;
 }
-.add_but{
-    float: left;
-    border-radius: 5px;
 
+.add_but {
+    float: right;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 10%;
 }
-.delete,.edit,.button,.add_but{
+
+.delete, .edit, .button, .add_but {
     background: #4cae4c;
     height: 30px;
 }
-.delete,.add_but,.edit:hover,.button:hover{
+
+.delete:hover, .add_but:hover, .edit:hover, .button:hover {
     background: #3c763d;
 }
-table{
+
+table {
     text-align: left;
     width: 100%;
     margin-bottom: 10px;
 }
-.add{
-    height: 30px;
+
+.add {
     float: left;
+    margin-right: 30px;
+
 }
-.input_field{
+
+.input_field {
     border-radius: 5px;
     border: 1px solid #B3B3B3;
-    width: 60%;
+}
+
+#name {
+    width: 100%;
+
+}
+
+#id_bound {
+    width: 5%;
+}
+
+#id {
+    width: 100%;
+}
+
+select {
+    height: 30px;
+    border-radius: 5px;
+}
+
+input {
+    height: 26px;
+    border-radius: 5px;
 }
