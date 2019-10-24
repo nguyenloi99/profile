@@ -1,0 +1,181 @@
+
+body {
+    font-family: Tahoma;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 50px;
+    background: #F7B45D;
+}
+
+.header img {
+    height: 50px;
+}
+
+.banner {
+    padding-left: 25%;
+    vertical-align: center;
+}
+
+.content {
+    width: 70%;
+    height: 360px;
+    background: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.img img {
+    border: 1px solid #eeeeee;
+
+}
+
+.more_img ul li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #eeeeee;
+
+
+}
+
+.book_detail {
+    padding-top: 30px;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #B3B3B3;
+}
+
+.root_price {
+    font-size: 12px;
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+
+.line {
+    background: #B3B3B3;
+    width: 100%;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.amount {
+    height: 60px;
+    padding-top: 20px;
+}
+
+.left {
+    float: left;
+    width: 25%;
+}
+
+.mid {
+    float: left;
+    width: 20%;
+    line-height: 5px;
+}
+
+.mid input {
+    width: 30px;
+    text-align: center;
+}
+
+.right {
+    width: 35%;
+    float: left;
+}
+
+.right .but {
+    background: #F47E50;
+    color: #FFFFFF;
+    font-weight: normal;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.but:hover {
+    background: #ec971f;
+}
+
+ .but:active {
+    background: #ecaa1a;
+}
+
+.clearfix {
+    height: 20px;
+}
+
+.auth-about {
+    font-size: 13px;
+}
+.footer .top-footer p{
+   padding-top: 6px;
+    padding-left: 10px;
+}
+.bound {
+    margin-top: 20px;
+    padding-left: 30px;
+    background: #eeeeee;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+
+.bound p {
+    color: #8C8989;
+}
+
+.footer {
+    background: #FFFFFF !important;
+    width: 70%;
+    height: 300px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.books-relace ul li {
+    width: 20%;
+    float: left;
+    list-style: none;
+    margin-top: 1%;
+   margin-right: auto;
+}
+
+.books-relace img {
+
+    border: 1px solid #eeeeee;
+
+}
+
+.book-name, .book-price {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img{padding-top: 0!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.book-price {
+    background: #F47E50;
+    border-radius: 8px;
+    width: 60%;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
