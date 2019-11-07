@@ -11,8 +11,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -20,20 +20,23 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/GiuaKi/web - Bai5/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab3/design" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Thanh Loi\Desktop\unicat\unicat\lab3" />
-      <recent name="C:\Users\Thanh Loi\Desktop\unicat\unicat\lab3\img" />
-      <recent name="C:\Users\Thanh Loi\Desktop\unicat\unicat\lab3\css" />
-      <recent name="C:\Users\Thanh Loi\Desktop\unicat\unicat\lab1\lib" />
-      <recent name="C:\Users\Thanh Loi\Desktop\unicat\unicat\images" />
+      <recent name="C:\Users\Thanh Loi\Desktop\unicat\unicat\lab3\design" />
+      <recent name="C:\Users\Thanh Loi\Desktop\unicat\unicat\lab2\design" />
+      <recent name="C:\Users\Thanh Loi\Desktop\unicat\unicat\" />
+      <recent name="C:\Users\Thanh Loi\Desktop\unicat\unicat\lab1\design" />
+      <recent name="C:\Users\Thanh Loi\Desktop\unicat\unicat" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Thanh Loi\Desktop\unicat\unicat\lab3\img" />
-      <recent name="C:\Users\Thanh Loi\Desktop\unicat\unicat\images" />
+      <recent name="C:\Users\Thanh Loi\Desktop\unicat\unicat\lab4\images" />
+      <recent name="C:\Users\Thanh Loi\Desktop\unicat\unicat\lab4" />
+      <recent name="C:\Users\Thanh Loi\Desktop\unicat\unicat\lab4\images\slider_parallax" />
+      <recent name="C:\Users\Thanh Loi\Desktop\unicat\unicat\lab4\css" />
+      <recent name="C:\Users\Thanh Loi\Desktop\unicat\unicat\lab4\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -67,6 +70,12 @@
       <workItem from="1571637563699" duration="14000" />
       <workItem from="1571639671709" duration="27000" />
       <workItem from="1571885280997" duration="5652000" />
+      <workItem from="1571939966946" duration="776000" />
+      <workItem from="1572490503164" duration="12479000" />
+      <workItem from="1572522506556" duration="1607000" />
+      <workItem from="1572583369408" duration="1989000" />
+      <workItem from="1572954667768" duration="4432000" />
+      <workItem from="1573094815817" duration="1503000" />
     </task>
     <servers />
   </component>

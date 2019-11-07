@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    height: 50px;
+    width: 100%;
+    left: 0;
+    border-radius: 0 !important;
+    position: fixed !important;
+    border-bottom: 1px solid black;
+    z-index: 100;
+
+}
+
+.header .logo {
+    animation-name: move;
+    animation-duration: 4s;
+    position: relative;
+}
+
+@keyframes move {
+    from {
+        left: -150px;
+    }
+    to {
+        left: 0px;
+    }
+}
+
+.header ul li {
+    margin-left: 40%;
+    font-size: 20px !important;
+    font-weight: normal !important;
+}
+
+.header ul li a {
+    color: black !important;
+}
+
+.header ul li a:hover {
+    color: #ff3f00 !important;
+}
+
+.header ul li a:active {
+    color: #d53700 !important;
+}
+
+.header .cart {
+    color: #ff3f00;
+    height: 100%;
+    margin-top: 17px;
+    margin-left: 40%;
+}
+
+.header .cart a {
+    color: #ff3f00;
+    text-decoration: none;
+}
+
+.header .cart a:hover {
+    color: #d53700;
+}
+
+.input-icon {
+    position: absolute;
+    top: 15%;
+    right: 14%;
+}
+
+.body, .footer {
+    width: 80%;
+    background: rgba(179, 179, 179, 0.2);
+    margin-left: 5.4%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.body {
+    padding-top: 50px;
+    overflow: hidden;
+
+}
+
+.col-two {
+    width: 50%;
+    float: left;
+}
+
+.book-zone ul {
+    list-style: none;
+}
+
+.book-zone {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.book-zone .item {
+    margin-bottom: 20px;
+}
+
+.book-zone img {
+    float: right;
+}
+
+.about-book {
+    margin-left: 15%;
+}
+
+.about-book a {
+    color: red;
+    font-size: 15px;
+}
+
+.about-book p {
+    color: #847f7c;
+    font-size: 15px;
+}
+
+.book-zone .QC {
+    margin: 0 !important;
+    padding-left: 15%;
+    padding-right: 5%;
+}
+
+
+.book-zone .hot {
+    float: right;
+    width: 100%;
+    margin-left: 17%;
+    margin-right: 7.5%;
+    padding-left: 10%;
+    margin-top: 40px;
+    border: 1px solid #989898;
+    background: #FFFFFF;
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+
+.hot a {
+    font-size: 16px;
+    color: #ec8832;
+    line-height: 50px;
+}
+
+.star li {
+    float: left;
+    margin-top: 0;
+    margin-right: 2px;
+}
+
+.footer {
+    overflow: hidden;
+    border-top: 1px solid #B3B3B3;
+    height: 120px;
+    padding-bottom: 10px;
+}
+
+.footer-content {
+    height: 90%;
+}
+
+.footer .logo-footer {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.footer .contact {
+    margin-top: 10px;
+}
+
+.footer .social {
+    margin-top: 30px;
+    height: 100%;
+}
+
+.footer .social ul {
+    list-style: none;
+}
+
+.footer .social ul li {
+    float: left;
+    margin-right: 15px;
+}
+
+.ship-code {
+    margin-top: 20px;
+}
+
+.ship-code ul {
+    list-style: none;
+}
+
+.ship-code ul li {
+    margin-bottom: 10px;
+}
+
+.copyright {
+    width: 100%;
+    height: 20%;
+    background: #e0e0e0;
+    margin: 0;
+    text-align: right;
+    margin: 0 !important;
+    padding-left: 20px;
+}
