@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    height: 50px;
+    margin-top: 10px;
+}
+
+.header .logo img {
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .search {
+    height: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.header .search input {
+    width: 90%;
+    display: flex;
+    height: 30px;
+    justify-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header .cart {
+    color: #ff3f00;
+    height: 100%;
+    margin-top: 17px;
+}
+
+.input-icon {
+    position: absolute;
+    top: 15%;
+    right: 14%;
+}
+
+.body, .footer {
+    width: 80%;
+    background: rgba(179, 179, 179, 0.2);
+    margin-left: 5.4%;
+}
+
+.body {
+    overflow: hidden;
+}
+
+.col-two {
+    width: 50%;
+    float: left;
+}
+
+.book-zone ul {
+    list-style: none;
+}
+
+.book-zone {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.book-zone .item{
+    margin-bottom: 20px;
+}
+.book-zone img{float: right;
+}
+.about-book {
+    margin-left: 15%;
+}
+
+.about-book a {
+    color: red;
+    font-size: 15px;
+}
+
+.about-book p {
+    color: #847f7c;
+    font-size: 15px;
+}
+.book-zone .QC{
+    padding-right: 30px;
+}
+.book-zone .hot{
+    float: right;
+    width: 75.5%;
+    margin-top: 40px;
+    margin-right: 30px;
+    border: 1px solid #989898;
+    background: #FFFFFF;
+    padding-left: 10px;
+
+}
+.hot a{
+    font-size: 16px;
+    color: #ec8832;
+    line-height: 50px;
+}
+
+.star li {
+    float: left;
+    margin-top: 0;
+    margin-right: 2px;
+}
+
+.footer {
+    border-top: 1px solid #B3B3B3;
+    height: 120px;
+}
+
+.footer-content {
+    height: 90%;
+}
+
+.footer .logo-footer {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.footer .contact {
+    margin-top: 10px;
+}
+
+.footer .social {
+    margin-top: 30px;
+    height: 100%;
+}
+
+.footer .social ul {
+    list-style: none;
+}
+
+.footer .social ul li {
+    float: left;
+    margin-right: 15px;
+}
+
+.ship-code {
+    margin-top: 20px;
+}
+
+.ship-code ul {
+    list-style: none;
+}
+
+.ship-code ul li {
+    margin-bottom: 10px;
+}
+
+.copyright {
+    height: 20%;
+    background: #e0e0e0;
+    margin: 0;
+    text-align: right;
+    padding-right: 10px;
+
+}

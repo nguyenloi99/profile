@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+
+}
+#container{
+    background: white;
+}
+#form{
+    border: 2px solid darkgrey;
+    border-radius: 15px;
+    margin: 20px    auto;
+    width: 500px;
+    height: 500px;
+    background: lightgrey;
+    padding-top: 20px;
+}
+h4{
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.input_colum1 {
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.text{
+    padding-top: 10px;
+    width: 100px;
+}
+.input_field{
+    width: 300px;
+    height: 35px;
+    margin-left: -30px;
+}
+.au {
+    float: none;
+}
+#date{
+    padding-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.text_date{
+    float: left;
+    width:50px;
+}
+.day{
+    margin-left: 70px;
+    width: 80px;
+    height: 35px;
+    float: left;
+    margin-right: 21px;
+}
+.month{
+    width: 80px;
+    height: 35px;
+    margin-right: 21px;
+    float: left;
+}
+.year{width: 100px;
+    margin-right: 21px;
+    height: 35px;
+}
+#button{
+    float: bottom;
+}
+.button{
+    background: lavender;
+    margin-top: 30px;
+    margin-right: 25px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    float: right;
+    height: 35px;
+    width: 80px;
+}
+.button:hover{
+    background: darkgreen;
+    color: white;
+}
+/*del*/
+.tr{
+    margin: 0px 10px 0px 10px;
+}
+
