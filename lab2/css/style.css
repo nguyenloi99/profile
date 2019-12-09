@@ -28,10 +28,7 @@ body {
     margin-right: auto;
 }
 
-.img {
-    padding-top: 30px;
-    padding-left: 20px;
-}
+
 
 .img img {
     border: 1px solid #eeeeee;
@@ -58,7 +55,7 @@ body {
 }
 
 .root_price {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: lighter;
     text-decoration: line-through;
 }
@@ -78,6 +75,7 @@ body {
 
 .left {
     float: left;
+    font-size: 14px;
     width: 25%;
 }
 
@@ -111,7 +109,7 @@ body {
     background: #ec971f;
 }
 
- .but:active {
+.but:active {
     background: #ecaa1a;
 }
 
@@ -122,22 +120,20 @@ body {
 .auth-about {
     font-size: 13px;
 }
-.footer .top-footer p{
-   padding-top: 6px;
+
+.footer .top-footer p {
+    padding-top: 6px;
     padding-left: 10px;
 }
+
 .bound {
     margin-top: 20px;
     padding-left: 30px;
     background: #eeeeee;
-    font-size: 13px;
     line-height: 20px;
 
 }
 
-.bound p {
-    color: #8C8989;
-}
 
 .footer {
     background: #FFFFFF !important;
@@ -148,11 +144,10 @@ body {
 }
 
 .books-relace ul li {
-    width: 20%;
+
     float: left;
     list-style: none;
-    margin-top: 1%;
-   margin-right: auto;
+
 }
 
 .books-relace img {
@@ -166,15 +161,13 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-.img{padding-top: 0!important;
-    margin-left: auto;
-    margin-right: auto;
-}
+
+
 .book-price {
     background: #F47E50;
     border-radius: 8px;
     width: 60%;
-    font-size: 12px;
+    font-size: 13px;
     color: #FFFFFF;
     font-weight: bold;
 
