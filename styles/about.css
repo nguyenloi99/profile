@@ -1,0 +1,27 @@
+body {
+    background: #e5e5e5;
+}
+
+.about {
+    margin-top: 110px;
+    min-height: 520px;
+    background: white;
+    overflow: auto;
+}
+
+.left {
+    background-image: url("../images/namphuonglinh.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 520px;
+}
+
+.overlay {
+    background: black;
+    opacity: 0.7;
+    z-index: 2;
+    min-height: 520px;
+
+}
