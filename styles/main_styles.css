@@ -43,7 +43,12 @@
     -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
 }
-
+.mobile-icon{
+    display: none;
+}
+.mobile-main-nav{
+    display: none;
+}
 body {
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
