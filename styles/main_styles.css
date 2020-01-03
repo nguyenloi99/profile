@@ -634,7 +634,9 @@ section {
     font-weight: 400 !important;
     color: rgba(0, 0, 0, 0.4) !important;
 }
-
+.hamburger{
+    display: none;
+}
 
 /*********************************
 5. Section
